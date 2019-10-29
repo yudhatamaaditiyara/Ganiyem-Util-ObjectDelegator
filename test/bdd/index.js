@@ -31,14 +31,14 @@ let createSource = () => ({
 	get getterMethod(){
 		return 'getterMethod';
 	},
-	set setterMethod(val){
-		this.setterValue = val;
+	set setterMethod(value){
+		this.setterValue = value;
 	},
 	get accessMethod(){
 		return 'accessMethod';
 	},
-	set accessMethod(val){
-		this.accessValue = val;
+	set accessMethod(value){
+		this.accessValue = value;
 	}
 });
 
