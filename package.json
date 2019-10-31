@@ -27,6 +27,7 @@
 	"files": [
 		"LICENSE",
 		"README.md",
+		"CHANGELOG.md",
 		"index.js"
 	]
 }
