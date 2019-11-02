@@ -39,20 +39,20 @@ class ObjectDelegator
 	}
 	
 	/**
-	 * @param {string|symbol} name
-	 * @param {Object=} descriptor
-	 * @return {ObjectDelegator}
+	 * @param {(string|symbol)} name
+	 * @param {Object} [descriptor]
+	 * @returns {ObjectDelegator}
 	 */
 	method(name, descriptor){
 		return this.methodAs(name, name, descriptor);
 	}
 
 	/**
-	 * @param {string|symbol} name
-	 * @param {string|symbol} as
-	 * @param {Object=} descriptor
+	 * @param {(string|symbol)} name
+	 * @param {(string|symbol)} as
+	 * @param {Object} [descriptor]
 	 * @throws {IllegalArgumentError}
-	 * @return {ObjectDelegator}
+	 * @returns {ObjectDelegator}
 	 */
 	methodAs(name, as, descriptor){
 		const source = this.source;
@@ -74,22 +74,22 @@ class ObjectDelegator
 	}
 
 	/**
-	 * @param {string|symbol} name
+	 * @param {(string|symbol)} name
 	 * @param {Array} args
-	 * @param {Object=} descriptor
-	 * @return {ObjectDelegator}
+	 * @param {Object} [descriptor]
+	 * @returns {ObjectDelegator}
 	 */
 	methodBind(name, args, descriptor){
 		return this.methodBindAs(name, name, args, descriptor);
 	}
 
 	/**
-	 * @param {string|symbol} name
-	 * @param {string|symbol} as
+	 * @param {(string|symbol)} name
+	 * @param {(string|symbol)} as
 	 * @param {Array} args
-	 * @param {Object=} descriptor
+	 * @param {Object} [descriptor]
 	 * @throws {IllegalArgumentError}
-	 * @return {ObjectDelegator}
+	 * @returns {ObjectDelegator}
 	 */
 	methodBindAs(name, as, args, descriptor){
 		const source = this.source;
@@ -111,20 +111,20 @@ class ObjectDelegator
 	}
 
 	/**
-	 * @param {string|symbol} name
-	 * @param {Object=} descriptor
-	 * @return {ObjectDelegator}
+	 * @param {(string|symbol)} name
+	 * @param {Object} [descriptor]
+	 * @returns {ObjectDelegator}
 	 */
 	getter(name, descriptor){
 		return this.getterAs(name, name, descriptor);
 	}
 
 	/**
-	 * @param {string|symbol} name
-	 * @param {string|symbol} as
-	 * @param {Object=} descriptor
+	 * @param {(string|symbol)} name
+	 * @param {(string|symbol)} as
+	 * @param {Object} [descriptor]
 	 * @throws {IllegalArgumentError}
-	 * @return {ObjectDelegator}
+	 * @returns {ObjectDelegator}
 	 */
 	getterAs(name, as, descriptor){
 		const source = this.source;
@@ -144,20 +144,20 @@ class ObjectDelegator
 	}
 
 	/**
-	 * @param {string|symbol} name
-	 * @param {Object=} descriptor
-	 * @return {ObjectDelegator}
+	 * @param {(string|symbol)} name
+	 * @param {Object} [descriptor]
+	 * @returns {ObjectDelegator}
 	 */
 	setter(name, descriptor){
 		return this.setterAs(name, name, descriptor);
 	}
 
 	/**
-	 * @param {string|symbol} name
-	 * @param {string|symbol} as
-	 * @param {Object=} descriptor
+	 * @param {(string|symbol)} name
+	 * @param {(string|symbol)} as
+	 * @param {Object} [descriptor]
 	 * @throws {IllegalArgumentError}
-	 * @return {ObjectDelegator}
+	 * @returns {ObjectDelegator}
 	 */
 	setterAs(name, as, descriptor){
 		const source = this.source;
@@ -177,20 +177,20 @@ class ObjectDelegator
 	}
 
 	/**
-	 * @param {string|symbol} name
-	 * @param {Object=} descriptor
-	 * @return {ObjectDelegator}
+	 * @param {(string|symbol)} name
+	 * @param {Object} [descriptor]
+	 * @returns {ObjectDelegator}
 	 */
 	access(name, descriptor){
 		return this.accessAs(name, name, descriptor);
 	}
 
 	/**
-	 * @param {string|symbol} name
-	 * @param {string|symbol} as
-	 * @param {Object=} descriptor
+	 * @param {(string|symbol)} name
+	 * @param {(string|symbol)} as
+	 * @param {Object} [descriptor]
 	 * @throws {IllegalArgumentError}
-	 * @return {ObjectDelegator}
+	 * @returns {ObjectDelegator}
 	 */
 	accessAs(name, as, descriptor){
 		const source = this.source;
