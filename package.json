@@ -9,7 +9,7 @@
 	},
 	"dependencies": {
 		"ganiyem-error": "1.4.3",
-		"ganiyem-util-is": "1.0.3"
+		"ganiyem-util-is": "1.0.4"
 	},
 	"devDependencies": {
 		"coveralls": "3.0.7",
