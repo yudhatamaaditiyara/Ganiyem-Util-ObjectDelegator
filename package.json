@@ -2,7 +2,7 @@
 	"name": "ganiyem-util-objectdelegator",
 	"description": "The Ganiyem Util ObjectDelegator",
 	"license": "Apache-2.0",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/yudhatamaaditiyara/Ganiyem-Util-ObjectDelegator.git"
