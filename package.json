@@ -8,13 +8,13 @@
     "url": "git+https://github.com/yudhatamaaditiyara/Ganiyem-Util-ObjectDelegator.git"
   },
   "dependencies": {
-    "ganiyem-error": "1.5.2",
-    "ganiyem-util-is": "1.0.7"
+    "ganiyem-error": "^1.5.2",
+    "ganiyem-util-is": "^1.0.7"
   },
   "devDependencies": {
-    "coveralls": "3.0.7",
-    "mocha": "6.2.2",
-    "nyc": "14.1.1"
+    "coveralls": "^3.0.7",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1"
   },
   "engines": {
     "node": ">= 12.0.0"
