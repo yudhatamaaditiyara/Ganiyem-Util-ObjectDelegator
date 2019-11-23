@@ -12,7 +12,7 @@
 - build: remove devDeps `mocha-lcov-reporter 1.3.0`
 - build: rename `package.scripts.coveralls` to `package.scripts.coverage`
 - ci: rename `coveralls` to `coverage`
-- rest: refactoring
+- test: refactoring
 
 # 1.0.3 - 2019-11-02
 
